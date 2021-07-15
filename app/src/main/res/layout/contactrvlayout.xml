@@ -37,7 +37,7 @@
         app:layout_constraintStart_toEndOf="@+id/firstname_id" />
 
     <ImageView
-        android:id="@+id/contact_img_id"
+        android:id="@+id/image_id"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="@+id/firstname_id"
