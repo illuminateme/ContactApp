@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
         val contact: List<Contacts> = listOf(
             Contacts(
                 R.drawable.ic_baseline_person_24,
-                "Aima",
-                "Atiari"
+                "Aimajujfjf",
+                "Atiarikkkgkgj"
 
             ),
 
