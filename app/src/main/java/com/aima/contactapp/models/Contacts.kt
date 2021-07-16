@@ -4,5 +4,5 @@ data class Contacts(
     val image: Int,
     val fName: String,
     val lName: String,
-    val phoneNo: Long
+    val phoneNo: Int
 )

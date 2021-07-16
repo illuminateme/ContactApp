@@ -19,6 +19,7 @@ class ContactAdapter(private val contact: List<Contacts>,
                 imageId.setImageResource(contacts.image)
                 firstnameId.text = contacts.fName
                 lastNameId.text = contacts.lName
+
                 binding.root.setOnClickListener {
                     clicker(contacts)
                 }

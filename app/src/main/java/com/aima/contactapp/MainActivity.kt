@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "Aimajujfjf",
                 "Atiarikkkgkgj",
-                2348048474444
+                44
 
             ),
 
@@ -43,14 +43,14 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                34
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
                 "Atiari",
-                2348048474444
+                44
 
             ),
 
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                24
 
             ),
 
@@ -66,14 +66,14 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                74
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
                 "Atiari",
-                2348048474444
+                44
 
             ),
 
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                24
 
             ),
 
@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                34
 
             ),
 
@@ -97,14 +97,14 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                24
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
                 "Atiari",
-                2348048474444
+                44
 
             ),
 
@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                24
 
             ),
 
@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                48
 
             ),
 
@@ -128,14 +128,14 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                24
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
                 "Atiari",
-                2348048474444
+                74
 
             ),
 
@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.ic_baseline_person_24,
                 "John",
                 "Mote",
-                2348048474444
+                24
 
             )
 
