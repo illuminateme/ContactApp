@@ -1,12 +1,15 @@
 package com.aima.contactapp.adapters
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.aima.contactapp.databinding.ContactrvlayoutBinding
 import com.aima.contactapp.models.Contacts
 
-class ContactAdapter(private val contact: List<Contacts>) :
+class ContactAdapter(private val contact: List<Contacts>,
+                     val context: Context,
+                     val clicker: (Contacts) -> Unit) :
     RecyclerView.Adapter<ContactAdapter.ContactsViewHolder>() {
 
     inner class ContactsViewHolder(var binding: ContactrvlayoutBinding) :
@@ -16,6 +19,9 @@ class ContactAdapter(private val contact: List<Contacts>) :
                 imageId.setImageResource(contacts.image)
                 firstnameId.text = contacts.fName
                 lastNameId.text = contacts.lName
+                binding.root.setOnClickListener {
+                    clicker(contacts)
+                }
             }
         }
 

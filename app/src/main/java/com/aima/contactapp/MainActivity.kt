@@ -8,6 +8,7 @@ import com.aima.contactapp.databinding.ActivityAddContactBinding
 import com.aima.contactapp.databinding.ActivityMainBinding
 import com.aima.contactapp.models.AddContactActivity
 import com.aima.contactapp.models.Contacts
+import com.aima.contactapp.views.IndividualContactActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -33,107 +34,129 @@ class MainActivity : AppCompatActivity() {
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aimajujfjf",
-                "Atiarikkkgkgj"
+                "Atiarikkkgkgj",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
-                "Atiari"
+                "Atiari",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
-                "Atiari"
+                "Atiari",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
-                "Atiari"
+                "Atiari",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             ),
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "Aima",
-                "Atiari"
+                "Atiari",
+                2348048474444
 
             ),
 
             Contacts(
                 R.drawable.ic_baseline_person_24,
                 "John",
-                "Mote"
+                "Mote",
+                2348048474444
 
             )
 
         )
 
-    myContactAdapter =  ContactAdapter(contact)
+    myContactAdapter =  ContactAdapter(contact, this){
+        val intent = Intent(this, IndividualContactActivity::class.java)
+        intent.putExtra("image", it.image)
+        intent.putExtra("fName", it.fName)
+        intent.putExtra("lName", it.lName)
+        intent.putExtra("phoneNum", it.phoneNo)
+        startActivity(intent)
+    }
         binding.recyclerViewBlock.adapter = myContactAdapter
         }
 
